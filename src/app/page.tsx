@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import Dashboard from "./dashboard/page";
 import Login from "./login/page";
-import Navbar from "./components/Navbar";
 
 export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
